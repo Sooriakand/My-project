@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+ 
+
+
+.form-group {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+
+
+input[type="submit"] {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    background: linear-gradient(90deg, #FFF6B7 0%, #F6496F 100%);
+
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo {
+    max-width: 95%;
+    padding: 20px; /* Adjusted padding for proportional height */
+    border-radius: 50px 50px 0px 0px;
+    background: linear-gradient(90deg, #FFF6B7 0%, #F6496F 100%);
+
+    color: white;
+    text-align: center;
+    height: 40px;
+}
